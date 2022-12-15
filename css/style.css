@@ -16,7 +16,7 @@ body.uk-container{max-width:1280px;padding:0 40px}
 
 .main-left-section{max-width: 270px;}
 .main-left-section figure{margin: 82px 0 73px 20px;}
-
+.main-left-section .two-column img{margin: 10px 0px!important;}
 
 
 .sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;}
