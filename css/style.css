@@ -1,0 +1,80 @@
+*{padding: 0;margin: 0;box-sizing: border-box;outline:none;}
+html,h1, h2, h3, h4, h5, h6 {font-family: Arial, sans-serif;}
+.header .uk-navbar{background: transparent;}
+.header .uk-navbar-nav li a{color: #891f64;font: 700 normal 16px/40px Arial, sans-serif;}
+.header .uk-navbar-nav li a:hover{text-decoration: underline;background: transparent;color: #b82a86;}
+.header .uk-navbar-nav{text-align:end}
+.header .uk-icon-button{background:#27809f;color:#ffffff;}
+.header .uk-button-primary{background-color:#27809f;padding: 0px 30px;font:16px/40px Arial, sans-serif;}
+.header .uk-button{border-radius:19px;text-transform:none;font-size:17px}
+.header .uk-dropdown.uk-dropdown-bottom{width:210px;padding:10px;border:1px solid #a7a7a7;background:#FFFFFF;}
+.header .uk-search-navbar .uk-search-input{height:40px;width:inherit;background:#FFF;font-size:1.5rem;border: none;}
+.header .uk-close:after {display:none}
+
+.sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;}
+.sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;}
+.sus-tin-icon-facebook:hover,.sus-tin-icon-web:hover{background-color:#b82a86;color:#fff;transition: all 0.3s ease-in-out;}
+.text-main-ilustration{color:#47b1c7;font:19px/22px 'Nunito Sans Black'; top:20%;left:30%;}
+.uk-card-arnis{border:1px solid #891f64;border-radius:19px;color:#27809f;padding:18px 14px;background:#FFF;}
+.right-widget{position:fixed;right: 0px;top:200px;}
+.footer-top{background-color: #8a2065;padding: 15px 0px;}
+.footer-top ul{list-style: none;padding: 0px;}
+.footer-top ul li{display: inline-block;margin: 0px 10px;}
+.footer-top ul li a, .footer-top ul li a:link{font:700 normal 16px/24px Arial,sans-serif;color: #FFF;}
+.footer-bottom p, .footer-bottom a{color: #8a2065;}
+.footer-bottom a:hover{color: #b82a86;}
+
+
+/*---- register page ----*/
+
+.register-form fieldset{border:0;}
+.register-form .uk-input{height:40px;padding:0 10px;background:#fff;color:#666;border:1px solid #e5e5e5;width:100%}
+.register-form .uk-input:focus,.register-form .uk-select:focus,.register-form .uk-textarea:focus {outline: 0;background-color: #fff;color: #666;  border-color: #1e87f0;}
+.register-form .uk-select{height:40px;padding:0 10px;background:#fff;color:#666;border:1px solid #e5e5e5;width:100%}
+  .register-form .uk-select:not([multiple]):not([size]) {-webkit-appearance: none;-moz-appearance: none;padding-right: 20px;background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);background-repeat: no-repeat;background-position: 100% 50%;}
+.register-form .uk-button{border-radius:19px;text-transform:none;font-size:15px;max-width: 300px;height: 40px;}
+.register-form .uk-button-default{background-color:transparent;color:#333;border:1px solid #e5e5e5}
+/*---- login page ----*/ 
+.login-form fieldset{border:0;}
+.login-form .uk-input{height:40px;padding:0 10px;background:#fff;color:#666;border:1px solid #e5e5e5;width:100%}
+.login-form .uk-input:focus,.login-form .uk-select:focus,.login-form .uk-textarea:focus {outline: 0;background-color: #fff;color: #666;  border-color: #1e87f0;}
+.login-form .uk-checkbox:not(:disabled),.login-form .uk-radio:not(:disabled){cursor:pointer}
+.login-form .uk-checkbox,.login-form .uk-radio{display:inline-block;height:16px;width:16px;overflow:hidden;margin-top:-4px;vertical-align:middle;background-color:transparent;background-repeat:no-repeat;background-position:50% 50%;border:1px solid #ccc;transition:.2s ease-in-out;transition-property:background-color,border}
+.login-form .uk-button-danger{background-color:#f0506e;color:#fff;border:1px solid transparent;border-radius:19px;text-transform:none;font-size:15px;height: 40px;}
+.login-form .uk-button-default{border-radius:19px;text-transform:none;font-size:15px;border: 1px solid #e5e5e5;height: 40px;line-height: 40px;}
+
+/*---- mobile responsive css ----*/
+@media screen and (max-width: 992px) {
+    .header .uk-navbar-nav li a{color:#891f64;font:700 normal 12px/40px Arial,sans-serif;padding:0px 10px}
+    .header .uk-button-primary{background-color:#27809f;padding:0px 16px;font:12px/40px Arial,sans-serif}
+	.header .uk-margin-large-right {
+    margin-right:0px!important;
+}
+.uk-card-arnis {
+height:100%;}
+    .footer-top{background-color:#8a2065;padding:15px 0;text-align:center}
+  }
+  @media screen and (max-width: 767px) {
+    .uk-offcanvas-bar{background:#891f64}
+    .header .uk-link, a {color: #FFFFFF;}
+    .text-main-ilustration {font: 14px/18px 'Nunito Sans Black';top: 10%;left: 20%;}
+    .some-widget{position: relative!important;}
+    .uk-card-arnis {height: 100%;}
+
+  }
+
+/*---- fonts css ----*/
+@font-face{font-family:'Nunito Sans Regular';font-style:normal;font-weight:400;src:local('Nunito Sans Regular'),url(../fonts/NunitoSans-Regular.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Italic';font-style:normal;font-weight:400;src:local('Nunito Sans Italic'),url(../fonts/NunitoSans-Italic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans ExtraLight';font-style:normal;font-weight:400;src:local('Nunito Sans ExtraLight'),url(../fonts/NunitoSans-ExtraLight.woff) format('woff')}
+@font-face{font-family:'Nunito Sans ExtraLight Italic';font-style:normal;font-weight:400;src:local('Nunito Sans ExtraLight Italic'),url(../fonts/NunitoSans-ExtraLightItalic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Light';font-style:normal;font-weight:400;src:local('Nunito Sans Light'),url(../fonts/NunitoSans-Light.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Light Italic';font-style:normal;font-weight:400;src:local('Nunito Sans Light Italic'),url(../fonts/NunitoSans-LightItalic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans SemiBold';font-style:normal;font-weight:400;src:local('Nunito Sans SemiBold'),url(../fonts/NunitoSans-SemiBold.woff) format('woff')}
+@font-face{font-family:'Nunito Sans SemiBold Italic';font-style:normal;font-weight:400;src:local('Nunito Sans SemiBold Italic'),url(../fonts/NunitoSans-SemiBoldItalic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Bold';font-style:normal;font-weight:400;src:local('Nunito Sans Bold'),url(../fonts/NunitoSans-Bold.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Bold Italic';font-style:normal;font-weight:400;src:local('Nunito Sans Bold Italic'),url(../fonts/NunitoSans-BoldItalic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans ExtraBold';font-style:normal;font-weight:400;src:local('Nunito Sans ExtraBold'),url(../fonts/NunitoSans-ExtraBold.woff) format('woff')}
+@font-face{font-family:'Nunito Sans ExtraBold Italic';font-style:normal;font-weight:400;src:local('Nunito Sans ExtraBold Italic'),url(../fonts/NunitoSans-ExtraBoldItalic.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Black';font-style:normal;font-weight:400;src:local('Nunito Sans Black'),url(../fonts/NunitoSans-Black.woff) format('woff')}
+@font-face{font-family:'Nunito Sans Black Italic';font-style:normal;font-weight:400;src:local('Nunito Sans #000 Italic'),url(../fonts/NunitoSans-BlackItalic.woff) format('woff')}
