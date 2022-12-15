@@ -21,7 +21,7 @@ body.uk-container{max-width:1280px;padding:0 40px}
 .sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;line-height: 30px;}
 .sus-tin-icon-facebook:hover,.sus-tin-icon-web:hover{background-color:#b82a86;color:#fff;transition: all 0.3s ease-in-out;}
 .ilustratie-ursi-image{padding-bottom: 30px;}
-.text-main-ilustration{color:#47b1c7;font:19px/22px 'Nunito Sans Black'; top:19%;left:34%;}
+.text-main-ilustration{color:#47b1c7;font:19px/22px 'Nunito Sans Black'; top:19%;left:26%;}
 .uk-card-arnis{border:1px solid #891f64;border-radius:19px;color:#27809f;padding:18px 14px;background:#FFF;}
 .uk-card-arnis:hover{background-color:#fff;box-shadow:0 14px 25px rgb(0 0 0 / 16%)}
 .right-widget{position:fixed;right: 0px;top:200px;}
@@ -59,7 +59,7 @@ body.uk-container{max-width:1280px;padding:0 40px}
 .header .uk-navbar-nav li a{color:#891f64;font:700 normal 12px/40px Arial,sans-serif;padding:0px 10px}
 .header .uk-button-primary{background-color:#27809f;padding:0px 16px;font:12px/40px Arial,sans-serif}
 .header .uk-margin-large-right{margin-right:0!important}
-.text-main-ilustration {font: 16px/22px 'Nunito Sans Black';top: 19%;left: 22%;}
+.text-main-ilustration {font: 16px/22px 'Nunito Sans Black';top: 15%;left: 25%;}
 .uk-card-arnis {height:100%;}
 .footer-top{background-color:#8a2065;padding:15px 0;text-align:center}
 }
