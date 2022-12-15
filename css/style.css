@@ -14,6 +14,11 @@ body.uk-container{max-width:1280px;padding:0 40px}
 .header .uk-search-navbar .uk-search-input{height:40px;width:inherit;background:#FFF;font-size:1.5rem;border: none;}
 .header .uk-close:after {display:none}
 
+.main-left-section{max-width: 270px;}
+.main-left-section figure{margin: 82px 0 73px 20px;}
+
+
+
 .sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;}
 .sus-tin-icon-facebook, .sus-tin-icon-web {background-color: #891f64;}
 .sus-tin-icon-facebook:hover,.sus-tin-icon-web:hover{background-color:#b82a86;color:#fff;transition: all 0.3s ease-in-out;}
@@ -31,7 +36,9 @@ body.uk-container{max-width:1280px;padding:0 40px}
 
 
 /*---- register page ----*/
-
+.uk-heading-line{overflow:hidden}
+.uk-heading-line>::before{right:100%;margin-right:calc(5px + .3em)}
+.uk-heading-line>::after,.uk-heading-line>::before{content:"";position:absolute;top:calc(50% - (calc(.2px + .05em)/ 2));width:2000px;border-bottom:calc(.2px + .05em) solid #e5e5e5}
 .register-form fieldset{border:0;}
 .register-form .uk-input{height:40px;padding:0 10px;background:#fff;color:#666;border:1px solid #e5e5e5;width:100%}
 .register-form .uk-input:focus,.register-form .uk-select:focus,.register-form .uk-textarea:focus {outline: 0;background-color: #fff;color: #666;  border-color: #1e87f0;}
@@ -39,6 +46,7 @@ body.uk-container{max-width:1280px;padding:0 40px}
   .register-form .uk-select:not([multiple]):not([size]) {-webkit-appearance: none;-moz-appearance: none;padding-right: 20px;background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);background-repeat: no-repeat;background-position: 100% 50%;}
 .register-form .uk-button{border-radius:19px;text-transform:none;font-size:15px;max-width: 300px;height: 40px;}
 .register-form .uk-button-default{background-color:transparent;color:#333;border:1px solid #e5e5e5}
+.register-form .uk-button-default:hover{background-color:transparent;color:#333;border-color:#b2b2b2}
 /*---- login page ----*/ 
 .login-form fieldset{border:0;}
 .login-form .uk-input{height:40px;padding:0 10px;background:#fff;color:#666;border:1px solid #e5e5e5;width:100%}
